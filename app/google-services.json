@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1067534544830",
+    "firebase_url": "https://idelivery-990e0.firebaseio.com",
+    "project_id": "idelivery-990e0",
+    "storage_bucket": "idelivery-990e0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1067534544830:android:a142b32e0ae64d84",
+        "android_client_info": {
+          "package_name": "com.example.liew.idelivery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1067534544830-j27jg3lel3g546p950o3f87tkq7u4e2k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.liew.idelivery",
+            "certificate_hash": "2086b181b54a70a4e1a54bdc1d1729d9f629aad5"
+          }
+        },
+        {
+          "client_id": "1067534544830-nles26s6kd5r02pgvengmvneq7s4gsui.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiP2fydYeXZcr_tFWZFcHmy3ML2u3v88g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1067534544830-nles26s6kd5r02pgvengmvneq7s4gsui.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

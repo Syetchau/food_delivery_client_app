@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">iDelivery</string>
+    <string name="slogan">Delivery service that made our life become more simple and comfortable
+    </string>
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="forgot_pwd"><u>Forgot Password?</u></string>
+    <string name="facebook_app_id">278065246105234</string>
+    <string name="facebook_login_protocol_name">fb278065246105234</string>
+    <string name="ACCOUNT_KIT_CLIENT_TOKEN">4e9cdd3703508a0166c0d54d44c24e7b</string>
+    <string name="title_activity_scrolling">About Borenos</string>
+    <string name="large_text">
+      "Not everyone live their dream. Even more, not everyone build dreams. The founders of Borenos Fried Chicken chose to build not just theirs, but the people of Sabah’s too. Brought up abroad, they have seen possibilities, potentials and understood what needed to be done in bringing their beloved hometown to the eyes of the world. Their inspiration is the people, their purpose is the growth of Sabah, their drive is Borneo pride.\n\n"
+
+        "Why then, fried chicken? Simple, delicious and enjoyable to be shared over small talks or family gathering. Just like home, bringing back the good old memories of ‘comfort food’. Dining at home has another perk; it’s nutritious. And so the idea of freshness and quality surfaced. Only good ingredients are to be used, only the quality ones. This is after all, for my home people.\n\n"
+
+        "Part of the secret to Borenos’ signature tender juiciness comes from step-to-step perfection, with just the right amount of marination, breading skills and controlling the oil temperature to lock in flavors to achieve that golden coat of crispy skin, and tender meat.\n\n"
+        "We know hard work is important, but what matters more is believing in ourselves.\n\n"
+
+        "Borenos Fried Chicken is Sabah owned, for Sabahans, the next Borneo Pride.\n\n"
+
+        "This application act as the user-side of Borenos Fried Chicken. This application allows the user to view food menu, comment food menu and share food menu to Facebook.This app also allows user to order Borenos's food product through mobile application and deliver the product to user's place.\n\n"
+
+        "Developed by: Liew Syet Chau\n"
+        "Matrics no: BI15110121\n"
+        "Course: Bachelor of Networking Engineering,HC05\n\n"
+
+        "Supervisor: Dr Mohd Hanafi Ahmad Hijazi\n"
+        "Examiner: Miss Nordaliela Binti Mohd Rusli\n"
+    </string>
+    <string name="title_activity_tracking_order">Map</string>
+</resources>

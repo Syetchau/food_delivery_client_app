@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="8dp"
+    app:cardElevation="4dp">
+
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+         <fragment
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:id="@+id/place_autocomplete_fragment"
+             android:name="com.google.android.gms.location.places.ui.PlaceAutocompleteFragment"/>
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edtComment"
+                android:hint="Comment"
+                android:textColorHint="@android:color/black"
+                android:text=""
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:inputType="textMultiLine"
+                app:met_baseColor="@color/colorBlack"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="@color/colorBlack"
+                app:met_singleLineEllipsis="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Delivery Method :"/>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rdyShipToAddress"
+                    android:text="Ship To This Address"/>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rdyHomeAddress"
+                    android:text="Home Address"/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Payment Method :"/>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/cashOnDelivery"
+                    android:text="Cash On Delivery"/>
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+</android.support.v7.widget.CardView>

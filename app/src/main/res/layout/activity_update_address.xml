@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/iphonewallpaper"
+    tools:context="com.example.liew.idelivery.UpdateAddress">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:src="@drawable/iconfinder_home" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Update Address"
+            android:textColor="@color/colorWhite"
+            android:textSize="32dp"
+            android:layout_gravity="center"
+            android:textStyle="bold"/>
+
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edtHomeAddress"
+            android:hint="Home Address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textColorHint="@android:color/white"
+            android:text=""
+            android:textColor="@android:color/white"
+            android:textSize="28sp"
+            android:inputType="textMultiLine"
+            app:met_baseColor="@android:color/white"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@android:color/white"
+            app:met_singleLineEllipsis="false"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="20dp"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+
+
+        <info.hoang8f.widget.FButton
+            android:id="@+id/btnConfirmAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_alignParentBottom="true"
+            android:text="Confirm"
+            android:textColor="@android:color/white"
+            app:fButtonColor="@color/fbutton_color_green_sea"
+            app:cornerRadius="8dp"
+            app:shadowColor="@android:color/black"
+            app:shadowEnabled="true"
+            app:shadowHeight="5dp" />
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,56 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/fbutton_color_green_sea</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" >
+    <item name="colorPrimary">@color/colorGold1</item>
+    <item name="colorPrimaryDark">@color/colorGold3</item>
+    <item name="colorAccent">@color/colorYellow2</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light">
+    <item name="colorPrimary">@color/colorGold1</item>
+    <item name="colorPrimaryDark">@color/colorGold3</item>
+    <item name="colorAccent">@color/colorYellow2</item>
+    </style>
+
+    <style name="CollapsedAppBar" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="searchBar" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="ExpandedAppBar" parent="@android:style/TextAppearance.Material.Title">
+        <item name="android:textColor">@color/fbutton_color_green_sea</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    //rating dialog
+    <style name="RatingDialogStyle" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="android:background">@android:color/white</item>
+        <item name="android:buttonBarPositiveButtonStyle">@style/RatingDialogButtonStyle</item>
+        <item name="android:buttonBarNegativeButtonStyle">@style/RatingDialogButtonStyle</item>
+    </style>
+
+    <style name="RatingDialogButtonStyle" parent="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">@color/fbutton_color_green_sea</item>
+        <item name="android:textSize">@dimen/text_size_medium</item>
+    </style>
+    
+    <style name="RatingDialogFadeAnim">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+</resources>

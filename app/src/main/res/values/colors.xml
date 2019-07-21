@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#004d40</color>
+    <color name="colorPrimaryDark">#102931</color>
+    <color name="colorAccent">#39796b</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+
+    <color name="btnSignUp">#039BE5</color>
+    <color name="btnSigIn">#039BE5</color>
+
+    <color name="overlayBackground">#1f3f4e</color>
+    <color name="overlayActionBar">#0e0d0e</color>
+
+    <color name="colorPrimaryBlue">#49BEFF</color>
+    <color name="colorPrimaryBlueDark">#65DCE5</color>
+    <color name="colorAccentBlue">#0D5D98</color>
+    <color name="colorAddress">#2F7092</color>
+    <color name="colorHeadings">#3797CF</color>
+    <color name="colorGradEnd">#67EFC8</color>
+    <color name="colorGradStart">#63C9FF</color>
+
+    <color name="bgRowBackground">#D35400</color>
+    <color name="colorYellow">#FFFF34</color>
+    <color name="colorMid">#FFFF70</color>
+    <color name="colorPink">#FFDBB7</color>
+    <color name="blue2">#93D2ED</color>
+    <color name="darkblue">#75A8BD</color>
+    <color name="blue3">#75A8BD</color>
+    <color name="blue4">#466471</color>
+
+    <color name="colorGold1">#ffd700</color>
+    <color name="colorGold2">#eec900</color>
+    <color name="colorGold3">#ffc125</color>
+    <color name="colorYellow1">#ffff00</color>
+    <color name="colorYellow2">#eeee00</color>
+
+
+
+</resources>
