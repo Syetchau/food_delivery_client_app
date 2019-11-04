@@ -12,6 +12,6 @@ public interface IGoogleService {
     @GET
     Call<String> getLocationFromAddress(@Url String url);
 
-    @GET("maps/api/directions/json?key=AIzaSyBW3rhW1EhjhW36DmMyoTTBup4E6Gu1LCY&sensor=true&language=en&mode=driving")
+    @GET("maps/api/directions/json?key=yourKey&sensor=true&language=en&mode=driving")
     Call<String> getDirections(@Query("origin") String origin, @Query("destination") String destination);
 }
